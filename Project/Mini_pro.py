@@ -1,13 +1,8 @@
 from Functions.functions import * 
-import os
+from Functions.operation import operations
+# import os
 
-#file directory:
-base_dir = os.path.dirname(os.path.abspath(__file__))
 
-file_path = os.path.join(base_dir,"Functions","ips.log")
-print(file_path)
-
-operations = ["Email Verification","Phone number extractor","Valid IP extractor","Extract valid and invalid IPs","Email Hider"]
 print("Select the operation you want perform:")
 for index , op in enumerate(operations):
     print(f"{index}: {op}")
@@ -34,6 +29,9 @@ try:
     elif operation == 4:
         report_text = input("Please write your report:")
         print(email_hider(report_text))
+    
+    elif operation == 5:
+        print("Xss Alert")
     else:
         print("Invalid option. Please select a valid number.")
 except ValueError:
