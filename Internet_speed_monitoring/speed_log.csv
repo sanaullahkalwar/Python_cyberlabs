@@ -1,0 +1,5 @@
+Timestamp,Download (Mbps),Upload (Mbps),Ping (ms),Jitter (ms),Packet Loss(%),Server
+2025-10-02 08:00:00,145.23,18.45,12,N/A,N/A,New York
+2025-10-02 09:00:00,138.76,17.89,14,N/A,N/A,New York
+2025-10-02 10:00:00,90.45,15.32,20,N/A,N/A,New York
+2025-10-30 15:00:05,9.463884170256941,10.377762931539339,17.116,N/A,N/A,Karachi
